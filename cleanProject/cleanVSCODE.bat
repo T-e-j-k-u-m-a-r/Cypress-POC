@@ -1,0 +1,1 @@
+Taskkill /IM code.exe /F

@@ -1,0 +1,36 @@
+{
+  "name": "CypressPOC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js",
+    "coverage1": "nyc npm test",
+    "coverage": "nyc --reporter=lcov --reporter=text-lcov npm test",
+    "opency": "cypress open",
+    "customopency": "cypress open --config-file 'orangeConfig.json' ",
+    "testorange": "cypress run --config-file 'orangeConfig.json' --spec 'C:/Users/admin/Downloads/2021-Automation/CypressPOC/cypress/integration/00_OrangeHRM/LoginTest.js' --browser chrome --headed",
+    "test1": "cypress run --spec 'C:/Users/admin/Downloads/2021-Automation/CypressPOC/cypress/integration/00_OrangeHRM/*.js' --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.0.0",
+    "casual-browserify": "^1.5.19-2",
+    "chai": "^4.3.4",
+    "cy-verify-downloads": "0.0.5",
+    "cypress": "^9.0.0",
+    "cypress-downloadfile": "^1.2.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-get-table": "^1.0.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-real-events": "^1.5.1",
+    "cypress-xpath": "^1.6.2",
+    "mocha": "^9.1.3",
+    "moment": "^2.29.1",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {}
+}

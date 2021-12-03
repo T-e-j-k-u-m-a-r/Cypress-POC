@@ -1,0 +1,7 @@
+{
+  "include": ["./node_modules/cypress", "cypress/**/*.js"],
+  "compilerOptions": {
+    "types": ["cypress", "@4tw/cypress-drag-drop","cypress-file-upload","cy-verify-downloads"]
+  },
+  
+}

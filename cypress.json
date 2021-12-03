@@ -1,0 +1,15 @@
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "watchForFileChanges": false,
+  "chromeWebSecurity": false,
+  "baseUrl": "https://opensource-demo.orangehrmlive.com/index.php/auth/login",
+  "pageLoadTimeout": 60000,
+  "defaultCommandTimeout": 10000,
+  "requestTimeout": 5000,
+  "responseTimeout": 30000,
+  "env":{
+    "qa":{
+      "username":"Admin",
+      "password":"admin123"}
+  }  
+}

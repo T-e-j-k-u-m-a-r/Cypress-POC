@@ -1,0 +1,31 @@
+{
+  "appURL":"https://opensource-demo.orangehrmlive.com/index.php/auth/login",
+  "loginPage":{
+    "panelName":"LOGIN Panel"
+  },
+  "validCred":{
+    "username":"Admin",
+  "password":"admin123"
+  },
+  "invalidCred":{
+    "username":"Admin123",
+  "password":"admin000"
+  },
+"home":{
+  "welcomeText":"Welcome"
+},
+"nationality":{
+  "labelText":"Nationalities"
+},
+"prefix":{
+  "prefixName":"a0"
+},
+"deleteNationalityAlert":{
+  "msg":"Delete records?"
+},
+"confirmAlert":{
+  "alertText":"Press a Button !"
+},
+"username":"Admin",
+"password":"admin123"
+}
