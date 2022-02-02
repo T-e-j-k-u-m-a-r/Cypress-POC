@@ -90,11 +90,11 @@ Cypress.Commands.add('dragAndDrop', function (src, target) {
 
 
 Cypress.Commands.add('getIframe', (iframe) => {
-    return
-    cy.get(iframe)
+    return cy.get(iframe)
         .its('0.contentDocument.body')
         .should('be.visible')
-        .then(cy.wrap);
+    // .then(cy.wrap);
+    //The above 96th line is not mandatory, It will work other wise also
 })
 
 Cypress.Commands.add('handleAlertType1', (expectedText) => {

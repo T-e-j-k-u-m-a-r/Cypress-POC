@@ -1,6 +1,6 @@
 describe('Iframes', () => {
 
-    it.skip('TC01', () => {
+    it.only('TC01', () => {
         cy.visit('https://qaboxletstestcypresspracticesite.netlify.app/iframepage')
 
         //Way 1: Using custom commands
@@ -30,7 +30,7 @@ describe('Iframes', () => {
 
     });
 
-    it.only('TC02', () => {
+    it.skip('TC02', () => {
 
         cy.visit('https://qaboxletstestcypresspracticesite.netlify.app/iframepage')
 
